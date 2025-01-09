@@ -18,20 +18,7 @@ export default function NewsItems(props) {
           </div>
         </div>
       </div>
-      {/* <div className="col"> */}
-
-      {/* <div className="card" style={{width: "18rem"}}>
-       <img src={props.urlToImage} className="card-img-top" alt={props.urlToImage}/>
-      <div className="card-body" style = {{color : "red" , backgroundColor: "black"}}>
-      <h5 className="card-title">{props.title} <a href= {props.url}> </a></h5>
-      <p className="card-text">{props.description}</p>
-       <a href={props.newsUrl} rel = "noreferrer" target='_blank' className="btn btn-primary">Read More</a>
- </div>
-      </div> */}
-      {/* <div className="col">
-        Column
-      </div>  */}
-      {/* </div> */}
+     
     </div>
   )
 }
